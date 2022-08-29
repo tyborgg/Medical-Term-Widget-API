@@ -23,7 +23,7 @@ app.post("/widget_api/definition", cors(), (req, res) => {
     
     async function getData (){
         //Call the tagger API and get the terms
-        var terms = ["heart", "blood", "muscle"];
+        var terms = ["heart", "kidney", "muscle", "cancer"];
         var data = [];
         
         for(let i = 0; i < terms.length; i++){
