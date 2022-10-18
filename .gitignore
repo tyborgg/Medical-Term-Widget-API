@@ -1,2 +1,3 @@
 /node_modules
 /mysqlConnection.js
+/.env
